@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4588bb;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.brady-image {
+  background-image: url("//o.aolcdn.com/images/dims?thumbnail=1000%2C655%2Cauto&image_uri=https%3A%2F%2Fs.blogcdn.com%2Fslideshows%2Fimages%2Fslides%2F714%2F587%2F1%2FS7145871%2Fslug%2Fl%2Fthe-brady-bunch-1.jpg&client=amp-blogside-v2&signature=b29667ef9c360d4ce670851b5a901c34c6326e8a");
+  background-color: #cccccc;
+  height: 80%;
+  width: 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: static;
+  background-position: center top; 
+} 
+
+h1 {
+  text-align: center;
+  color: white;
+  background-color:blue;
+  opacity: .5;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+.quiz {
+  margin: 20px;
+}
+
+.startButton {
+  margin: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: none;
+  background-color: #ef65ae;
+  opacity: .7;
+  border-radius: 50px;
+  font-size: 2em;
+}
+
+.startButton:hover {
+  background-color: yellow;
+}
+
+#submitButton {
+  margin: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  background-color: #ef65ae;
+  border-radius: 50px;
+  font-size: 1em;
+}
+
+#submitButton:hover {
+  background-color: yellow;
+}
+
+
+#nextButton {
+  margin: 20px auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  background-color: #ef65ae;
+  border-radius: 50px;
+  font-size: 1em;
+  display: block;
+}
+
+#nextButton:hover {
+  background-color: yellow;
+}
+
+#restartButton {
+  margin: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  background-color: #ef65ae;
+  border-radius: 50px;
+  font-size: 1em;
+}
+
+#restartButton:hover {
+  background-color: yellow;
+}
+
+@media screen and (min-width: 1366px) {
+  .brady-image {
+    height: 300px;
+    width: 500px;
+
+  }
+}
