@@ -93,8 +93,8 @@ li {
   background-color: yellow;
 }
 
-#restartButton {
-  margin: 20px;
+#restart {
+  margin: 20px auto;
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 15px;
@@ -103,9 +103,10 @@ li {
   background-color: #ef65ae;
   border-radius: 50px;
   font-size: 1em;
+  display: block;
 }
 
-#restartButton:hover {
+#restart:hover {
   background-color: yellow;
 }
 
