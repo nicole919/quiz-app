@@ -94,7 +94,7 @@ li {
 }
 
 #restart {
-  margin: 20px;
+  margin: 20px auto;
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 15px;
@@ -103,6 +103,7 @@ li {
   background-color: #ef65ae;
   border-radius: 50px;
   font-size: 1em;
+  display: block;
 }
 
 #restart:hover {
